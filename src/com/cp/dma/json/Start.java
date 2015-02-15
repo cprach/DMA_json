@@ -1,3 +1,4 @@
+package com.cp.dma.json;
 
 public class Start {
 
