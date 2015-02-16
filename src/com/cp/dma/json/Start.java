@@ -1,13 +1,19 @@
 package com.cp.dma.json;
 
+import com.google.gson.Gson;
+
 public class Start {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	
+		PlayerData pd = new PlayerData();
+		String s = pd.readData();
+		System.out.println(s);
 		
-		/////CHANGES
+		Gson gson = new Gson();
+		PList p = gson.fromJson(s, PList.class);
 		
-		////MORE CHANGES
+		System.out.print(p.getPlayers().size());
 
 	}
 
