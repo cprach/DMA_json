@@ -11,9 +11,10 @@ public class Start {
 		System.out.println(playerData);
 		
 		Gson gson = new Gson();
-		PlayerManager p = gson.fromJson(playerData, PlayerManager.class);
+		//PlayerManager p = gson.fromJson(playerData, PlayerManager.class);
+		ServerManager sm = gson.fromJson(playerData, ServerManager.class);
 		
-		System.out.print(p.getPlayers().size());
+		//System.out.print(p.getPlayers().size());
 
 	}
 

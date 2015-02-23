@@ -1,19 +1,15 @@
 package com.cp.dma.json;
 
-import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.Reader;
-import java.util.List;
 
 public class PlayerData {
-	
-	private List<Player> playerDataList;
-	
+		
 	public String readData() {
-		File f = new File("playerdata.txt");
+		File f = new File("playerdatajson.json");
 		try {
 			Reader r = new FileReader(f);
 			StringBuilder sb = new StringBuilder();

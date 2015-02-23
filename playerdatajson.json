@@ -1,33 +1,27 @@
 {
    "players":[
       {
-         "userName":"Straven",
-         "highScore":"49098",
+         "username":"Straven",
+         "highscore":"49098",
          "previousscore":[
-            {
-               "1":"10",
-               "2":"33"
-            }
+               "10",
+               "33"
          ]
       },
       {
-         "userName":"KiddThunda",
-         "highScore":"35878",
+         "username":"KiddThunda",
+         "highscore":"35878",
          "previousscore":[
-            {
-               "1":"10",
-               "2":"33"
-            }
+               "10",
+               "33"
          ]
       },
       {
-         "userName":"Sparkles",
-         "highScore":"30223",
+         "username":"Sparkles",
+         "highscore":"30223",
          "previousscore":[
-            {
-               "1":"10",
-               "2":"33"
-            }
+               "10",
+               "33"
          ]
       }
    ]
