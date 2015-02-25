@@ -1,5 +1,5 @@
 {
-   "server":[
+   "servers":[
       {
          "id":"500",
          "region":"AU",
@@ -8,7 +8,7 @@
             {
                "username":"Straven",
                "highscore":"49098",
-               "previousscore":[
+               "previousscores":[
                   "10",
                   "33"
                ]
@@ -16,7 +16,7 @@
             {
                "username":"KiddThunda",
                "highscore":"35878",
-               "previousscore":[
+               "previousscores":[
                   "10",
                   "33"
                ]
@@ -24,7 +24,7 @@
             {
                "username":"Sparkles",
                "highscore":"30223",
-               "previousscore":[
+               "previousscores":[
                   "10",
                   "33"
                ]
