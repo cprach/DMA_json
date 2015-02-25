@@ -7,7 +7,7 @@ public class Player {
 	
 	private String userName;
 	private int highScore;
-	private List<Integer> previousScore = new ArrayList<Integer>();
+	private List<Integer> previousScores = new ArrayList<Integer>();
 	
 	public Player() {
 		
@@ -25,10 +25,10 @@ public class Player {
 		this.highScore = highScore;
 	}
 	public List<Integer> getPreviousscore() {
-		return previousScore;
+		return previousScores;
 	}
 	public void setPreviousscore(List<Integer> previousscore) {
-		this.previousScore = previousscore;
+		this.previousScores = previousscore;
 	}
 	
 	

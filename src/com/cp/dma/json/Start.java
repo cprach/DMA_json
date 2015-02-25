@@ -8,14 +8,13 @@ public class Start {
 	
 		PlayerData pd = new PlayerData();
 		String playerData = pd.readData();
-		System.out.println(playerData);
+		System.out.println("Player data: " + playerData);
 		
 		Gson gson = new Gson();
-		//PlayerManager p = gson.fromJson(playerData, PlayerManager.class);
 		ServerManager sm = gson.fromJson(playerData, ServerManager.class);
-		
-		//System.out.print(p.getPlayers().size());
 
+		System.out.println("Number of servers: " + sm.getServers().size());
+		
 	}
 
 }
