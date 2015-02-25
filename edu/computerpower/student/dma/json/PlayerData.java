@@ -1,4 +1,4 @@
-package com.cp.dma.json;
+package edu.computerpower.student.dma.json;
 
 import java.io.File;
 import java.io.FileNotFoundException;

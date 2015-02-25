@@ -1,4 +1,4 @@
-package com.cp.dma.json;
+package edu.computerpower.student.dma.json;
 
 import java.util.ArrayList;
 import java.util.List;
