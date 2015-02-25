@@ -12,6 +12,11 @@ public class Player {
 	public Player() {
 		
 	}
+	public Player(String userName, int highScore, List<Integer> previousScores) {
+		setUserName(userName);
+		setHighScore(highScore);
+		setPreviousScores(previousScores);
+	}
 	public String getUserName() {
 		return userName;
 	}
@@ -24,11 +29,11 @@ public class Player {
 	public void setHighScore(int highScore) {
 		this.highScore = highScore;
 	}
-	public List<Integer> getPreviousscore() {
+	public List<Integer> getPreviousScore() {
 		return previousScores;
 	}
-	public void setPreviousscore(List<Integer> previousscore) {
-		this.previousScores = previousscore;
+	public void setPreviousScores(List<Integer> previousScores) {
+		this.previousScores = previousScores;
 	}
 	
 	

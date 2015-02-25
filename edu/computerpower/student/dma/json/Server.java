@@ -37,6 +37,16 @@ public class Server {
 	public void setServerName(String serverName) {
 		this.serverName = serverName;
 	}
+
+	public List<Player> getPlayers() {
+		return players;
+	}
+
+	public void setPlayers(List<Player> players) {
+		this.players = players;
+	}
+	
+	
 	
 
 }

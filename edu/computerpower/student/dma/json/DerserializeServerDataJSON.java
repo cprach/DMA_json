@@ -6,9 +6,11 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.Reader;
 
-public class PlayerData {
-		
-	public String readData() {
+import com.google.gson.Gson;
+
+public class DerserializeServerDataJSON {
+	
+	private String readData() {
 		File f = new File("playerdatajson.json");
 		try {
 			Reader r = new FileReader(f);
@@ -30,5 +32,13 @@ public class PlayerData {
 		return null;
 		
 	}
+	
+	public ServerManager deserialize() {
+		Gson gson = new Gson();
+		ServerManager sm = gson.fromJson(readData(), ServerManager.class);
+		return sm;
+	}
+	
+	
 
 }
