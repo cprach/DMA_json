@@ -5,39 +5,45 @@ import java.util.List;
 
 public class Player {
 	
-	private String userName;
-	private int highScore;
-	private List<Integer> previousScores = new ArrayList<Integer>();
+	private String username;
+	private int highscore;
 	
 	public Player() {
 		
 	}
-	public Player(String userName, int highScore, List<Integer> previousScores) {
-		setUserName(userName);
-		setHighScore(highScore);
-		setPreviousScores(previousScores);
-	}
 	public String getUserName() {
-		return userName;
+		return username;
 	}
 	public void setUserName(String userName) {
-		this.userName = userName;
+		this.username = userName;
 	}
 	public int getHighScore() {
-		return highScore;
+		return highscore;
 	}
 	public void setHighScore(int highScore) {
-		this.highScore = highScore;
+		this.highscore = highScore;
 	}
-	public List<Integer> getPreviousScore() {
-		return previousScores;
-	}
-	public void setPreviousScores(List<Integer> previousScores) {
-		this.previousScores = previousScores;
-	}
-	
-	
-	
-	
 
 }
+
+
+
+
+
+
+//public List<Integer> getPreviousScore() {
+//	return previouscores;
+//}
+//public void setPreviousScores(List<Integer> previousScores) {
+//	this.previouscores = previousScores;
+//}
+//
+//
+//
+//private List<Integer> previouscores = new ArrayList<Integer>();
+//
+//public Player(String userName, int highScore, List<Integer> previousScores) {
+//	setUserName(userName);
+//	setHighScore(highScore);
+//	setPreviousScores(previousScores);
+//}

@@ -15,9 +15,16 @@ public class Start {
 //
 //		System.out.println("Number of servers: " + sm.getServers().size());
 		
-		DerserializeServerDataJSON d = new DerserializeServerDataJSON();
-		ServerManager s = d.deserialize();
+		DerserializeDataJSON d = new DerserializeDataJSON();
+		ServerManager s = d.deserializeServerData();
 		System.out.println(s.getServers().size());
+		PlayerManager pm = d.deserializePlayerListData();
+		System.out.println(pm.getPlayers().size());
+		Player p = d.deserializeSinglePlayerData();
+		//System.out.println(p.xxx());
+		//d.serializePlayerObject(p);
+		//d.deserializePlayerData();
+d.deserializePlayerListData(d.serializePlayerObject(p));
 		
 	}
 
