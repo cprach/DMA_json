@@ -11,17 +11,17 @@ public class Player {
 	public Player() {
 		
 	}
-	public String getUserName() {
+	public String getUsername() {
 		return username;
 	}
-	public void setUserName(String userName) {
-		this.username = userName;
+	public void setUsername(String username) {
+		this.username = username;
 	}
-	public int getHighScore() {
+	public int getHighscore() {
 		return highscore;
 	}
-	public void setHighScore(int highScore) {
-		this.highscore = highScore;
+	public void setHighscore(int highscore) {
+		this.highscore = highscore;
 	}
 
 }

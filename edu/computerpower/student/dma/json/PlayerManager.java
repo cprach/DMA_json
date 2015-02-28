@@ -5,6 +5,10 @@ import java.util.List;
 
 public class PlayerManager {
 	
+	public PlayerManager() {
+		
+	}
+	
 	private List<Player> players = new ArrayList<Player>();
 
 	public List<Player> getPlayers() {
@@ -14,7 +18,5 @@ public class PlayerManager {
 	public void setPlayers(List<Player> players) {
 		this.players = players;
 	}
-	
-	
 
 }
